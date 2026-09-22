@@ -65,7 +65,7 @@ treated as policy questions about accrual/entitlement.
 
 `python eval/run_eval.py` → 18-task golden set (4 balance, 5 policy with
 expected cited sections, 3 abstention traps, 2 PII traps, 2 out-of-scope,
-2 ticket requests). Generated 2026-09-22T22:41:53Z.
+2 ticket requests). Generated 2026-09-22T22:42:02Z.
 
 | Metric | Value |
 |---|---|
@@ -73,8 +73,8 @@ expected cited sections, 3 abstention traps, 2 PII traps, 2 out-of-scope,
 | Citation accuracy | **1.000** (6/6 policy/PII tasks cite every expected section) |
 | Abstention precision | **1.000** (3 abstentions, all correct) |
 | Abstention recall | **1.000** (all 3 traps abstained on) |
-| Mean latency | **0.296 ms** |
-| p95 latency | **1.251 ms** |
+| Mean latency | **0.257 ms** |
+| p95 latency | **1.218 ms** |
 | pytest | **22 passed** |
 
 Latency is sub-millisecond because everything is local and deterministic —

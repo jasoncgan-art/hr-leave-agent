@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-22T22:41:53.436588+00:00",
+  "generated_at_utc": "2026-09-22T22:42:02.253516+00:00",
   "n_tasks": 18,
   "n_passed": 18,
   "success_rate": 1.0,
   "citation_accuracy": 1.0,
   "abstention_precision": 1.0,
   "abstention_recall": 1.0,
-  "mean_latency_ms": 0.296,
-  "p95_latency_ms": 1.251,
+  "mean_latency_ms": 0.257,
+  "p95_latency_ms": 1.218,
   "tasks": [
     {
       "id": "T01",
@@ -16,7 +16,7 @@
       "failures": [],
       "intent": "balance",
       "abstained": false,
-      "latency_ms": 1.251
+      "latency_ms": 1.218
     },
     {
       "id": "T02",
@@ -25,7 +25,7 @@
       "failures": [],
       "intent": "balance",
       "abstained": false,
-      "latency_ms": 0.142
+      "latency_ms": 0.157
     },
     {
       "id": "T03",
@@ -34,7 +34,7 @@
       "failures": [],
       "intent": "balance",
       "abstained": false,
-      "latency_ms": 0.263
+      "latency_ms": 0.245
     },
     {
       "id": "T04",
@@ -43,7 +43,7 @@
       "failures": [],
       "intent": "balance",
       "abstained": false,
-      "latency_ms": 0.094
+      "latency_ms": 0.061
     },
     {
       "id": "T05",
@@ -52,7 +52,7 @@
       "failures": [],
       "intent": "policy",
       "abstained": false,
-      "latency_ms": 0.419
+      "latency_ms": 0.367
     },
     {
       "id": "T06",
@@ -61,7 +61,7 @@
       "failures": [],
       "intent": "policy",
       "abstained": false,
-      "latency_ms": 0.241
+      "latency_ms": 0.242
     },
     {
       "id": "T07",
@@ -70,7 +70,7 @@
       "failures": [],
       "intent": "policy",
       "abstained": false,
-      "latency_ms": 0.248
+      "latency_ms": 0.272
     },
     {
       "id": "T08",
@@ -79,7 +79,7 @@
       "failures": [],
       "intent": "policy",
       "abstained": false,
-      "latency_ms": 0.258
+      "latency_ms": 0.234
     },
     {
       "id": "T09",
@@ -88,7 +88,7 @@
       "failures": [],
       "intent": "policy",
       "abstained": false,
-      "latency_ms": 0.233
+      "latency_ms": 0.232
     },
     {
       "id": "T10",
@@ -97,7 +97,7 @@
       "failures": [],
       "intent": "policy",
       "abstained": true,
-      "latency_ms": 0.156
+      "latency_ms": 0.155
     },
     {
       "id": "T11",
@@ -106,7 +106,7 @@
       "failures": [],
       "intent": "policy",
       "abstained": true,
-      "latency_ms": 0.179
+      "latency_ms": 0.181
     },
     {
       "id": "T12",
@@ -115,7 +115,7 @@
       "failures": [],
       "intent": "policy",
       "abstained": true,
-      "latency_ms": 0.163
+      "latency_ms": 0.191
     },
     {
       "id": "T13",
@@ -124,7 +124,7 @@
       "failures": [],
       "intent": "balance",
       "abstained": false,
-      "latency_ms": 0.134
+      "latency_ms": 0.091
     },
     {
       "id": "T14",
@@ -133,7 +133,7 @@
       "failures": [],
       "intent": "policy",
       "abstained": false,
-      "latency_ms": 0.282
+      "latency_ms": 0.271
     },
     {
       "id": "T15",
@@ -142,7 +142,7 @@
       "failures": [],
       "intent": "out_of_scope",
       "abstained": false,
-      "latency_ms": 0.041
+      "latency_ms": 0.042
     },
     {
       "id": "T16",
@@ -151,7 +151,7 @@
       "failures": [],
       "intent": "out_of_scope",
       "abstained": false,
-      "latency_ms": 0.039
+      "latency_ms": 0.04
     },
     {
       "id": "T17",
@@ -160,7 +160,7 @@
       "failures": [],
       "intent": "request",
       "abstained": false,
-      "latency_ms": 0.585
+      "latency_ms": 0.28
     },
     {
       "id": "T18",
@@ -169,7 +169,7 @@
       "failures": [],
       "intent": "request",
       "abstained": false,
-      "latency_ms": 0.602
+      "latency_ms": 0.346
     }
   ]
 }
