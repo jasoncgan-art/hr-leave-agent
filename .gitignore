@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+tickets/*.json
+!.gitkeep
+.env
+.DS_Store/
+eval/__pycache__/

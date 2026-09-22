@@ -1,0 +1,175 @@
+{
+  "generated_at_utc": "2026-09-22T22:41:15.004894+00:00",
+  "n_tasks": 18,
+  "n_passed": 18,
+  "success_rate": 1.0,
+  "citation_accuracy": 1.0,
+  "abstention_precision": 1.0,
+  "abstention_recall": 1.0,
+  "mean_latency_ms": 0.298,
+  "p95_latency_ms": 1.303,
+  "tasks": [
+    {
+      "id": "T01",
+      "type": "balance",
+      "passed": true,
+      "failures": [],
+      "intent": "balance",
+      "abstained": false,
+      "latency_ms": 1.303
+    },
+    {
+      "id": "T02",
+      "type": "balance",
+      "passed": true,
+      "failures": [],
+      "intent": "balance",
+      "abstained": false,
+      "latency_ms": 0.137
+    },
+    {
+      "id": "T03",
+      "type": "balance",
+      "passed": true,
+      "failures": [],
+      "intent": "balance",
+      "abstained": false,
+      "latency_ms": 0.43
+    },
+    {
+      "id": "T04",
+      "type": "balance",
+      "passed": true,
+      "failures": [],
+      "intent": "balance",
+      "abstained": false,
+      "latency_ms": 0.061
+    },
+    {
+      "id": "T05",
+      "type": "policy",
+      "passed": true,
+      "failures": [],
+      "intent": "policy",
+      "abstained": false,
+      "latency_ms": 0.366
+    },
+    {
+      "id": "T06",
+      "type": "policy",
+      "passed": true,
+      "failures": [],
+      "intent": "policy",
+      "abstained": false,
+      "latency_ms": 0.257
+    },
+    {
+      "id": "T07",
+      "type": "policy",
+      "passed": true,
+      "failures": [],
+      "intent": "policy",
+      "abstained": false,
+      "latency_ms": 0.296
+    },
+    {
+      "id": "T08",
+      "type": "policy",
+      "passed": true,
+      "failures": [],
+      "intent": "policy",
+      "abstained": false,
+      "latency_ms": 0.237
+    },
+    {
+      "id": "T09",
+      "type": "policy",
+      "passed": true,
+      "failures": [],
+      "intent": "policy",
+      "abstained": false,
+      "latency_ms": 0.232
+    },
+    {
+      "id": "T10",
+      "type": "abstain",
+      "passed": true,
+      "failures": [],
+      "intent": "policy",
+      "abstained": true,
+      "latency_ms": 0.289
+    },
+    {
+      "id": "T11",
+      "type": "abstain",
+      "passed": true,
+      "failures": [],
+      "intent": "policy",
+      "abstained": true,
+      "latency_ms": 0.213
+    },
+    {
+      "id": "T12",
+      "type": "abstain",
+      "passed": true,
+      "failures": [],
+      "intent": "policy",
+      "abstained": true,
+      "latency_ms": 0.164
+    },
+    {
+      "id": "T13",
+      "type": "pii",
+      "passed": true,
+      "failures": [],
+      "intent": "balance",
+      "abstained": false,
+      "latency_ms": 0.092
+    },
+    {
+      "id": "T14",
+      "type": "pii",
+      "passed": true,
+      "failures": [],
+      "intent": "policy",
+      "abstained": false,
+      "latency_ms": 0.274
+    },
+    {
+      "id": "T15",
+      "type": "out_of_scope",
+      "passed": true,
+      "failures": [],
+      "intent": "out_of_scope",
+      "abstained": false,
+      "latency_ms": 0.041
+    },
+    {
+      "id": "T16",
+      "type": "out_of_scope",
+      "passed": true,
+      "failures": [],
+      "intent": "out_of_scope",
+      "abstained": false,
+      "latency_ms": 0.052
+    },
+    {
+      "id": "T17",
+      "type": "request",
+      "passed": true,
+      "failures": [],
+      "intent": "request",
+      "abstained": false,
+      "latency_ms": 0.379
+    },
+    {
+      "id": "T18",
+      "type": "request",
+      "passed": true,
+      "failures": [],
+      "intent": "request",
+      "abstained": false,
+      "latency_ms": 0.543
+    }
+  ]
+}
