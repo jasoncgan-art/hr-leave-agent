@@ -1,6 +1,6 @@
-# HR Leave-Triage Agent (synthetic demo)
+# HR Leave-Triage Workflow (deterministic synthetic demo)
 
-An agentic-style AI system that answers employee **leave** questions for a
+A rule-based workflow prototype that answers employee **leave** questions for a
 fictional company ("Acme Corp") using three tools — policy lookup, a
 leave-balance calculator, and leave-ticket creation — wrapped in guardrails
 (PII redaction, weak-evidence abstention, out-of-scope fallback) and measured
@@ -138,3 +138,11 @@ hr-leave-agent . && docker run -p 8000:8000 hr-leave-agent`.
 Python 3.12, CPU-only, no GPU, no network calls at runtime. The only
 documented secret name is the `OPENAI_API_KEY` environment variable referenced
 by the stub adapter; no real credentials exist anywhere in this repo.
+
+
+## Portfolio scope
+
+This repository demonstrates routing, retrieval, tool dispatch and test design.
+It does not demonstrate an implemented LLM agent, employer deployment or real
+employee impact. A future LLM implementation requires its own held-out tests
+and measured costs/latency; the current deterministic scores do not transfer.
